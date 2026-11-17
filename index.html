@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dexter Copilot is your AI co-host for better streams." />
+    <title>Dexter Copilot — Your AI co-host</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Dexter Copilot home">
+        <span class="brand-mark">✦</span>
+        <span>dexter<span class="brand-accent">.</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#community">Community</a>
+      </nav>
+      <button class="button button-small button-outline" data-action="login">Log in</button>
+      <button class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> Built for creators</p>
+          <h1>Your stream.<br /><span>Your co-pilot.</span></h1>
+          <p class="hero-text">Dexter is the AI assistant that helps you stay in the moment, keep chat engaged, and grow your community.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" data-action="signup">Get started free <span>→</span></button>
+            <a class="watch-link" href="#how-it-works"><span class="play-icon">▶</span> See how it works</a>
+          </div>
+          <p class="fine-print">No credit card required <span>·</span> Set up in 2 minutes</p>
+        </div>
+        <div class="hero-art" aria-label="Dexter Copilot chat preview">
+          <div class="orb orb-large"></div>
+          <div class="orb orb-small"></div>
+          <div class="chat-window">
+            <div class="chat-header"><span class="status-dot"></span><strong>Dexter Copilot</strong><span class="online">● online</span></div>
+            <div class="chat-body">
+              <div class="message message-dexter"><span class="avatar">✦</span><div><small>DEXTER</small><p>Looks like chat is loving this topic. Want a quick poll to keep them talking?</p></div></div>
+              <div class="message message-user"><div><small>YOU</small><p>Yes, make one about the next game!</p></div></div>
+              <div class="message message-dexter"><span class="avatar">✦</span><div><small>DEXTER</small><p>On it. I’ll post it now and let you know when we have a winner.</p></div></div>
+            </div>
+            <div class="chat-input">Ask Dexter anything… <span>↑</span></div>
+          </div>
+          <span class="spark spark-one">✦</span><span class="spark spark-two">✦</span>
+        </div>
+      </section>
+
+      <section class="trusted" id="community">
+        <p>Made for streamers who want to do more</p>
+        <div class="trusted-items"><span>◉ GAMING</span><span>◈ JUST CHATTING</span><span>△ MUSIC</span><span>✦ IRL</span></div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-heading"><p class="eyebrow">More than a chatbot</p><h2>Let Dexter handle the<br /><em>busy work.</em></h2><p>Focus on what you do best. Dexter takes care of the little things that make a great stream.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon purple">✦</div><h3>Always in the loop</h3><p>Dexter understands your stream in real time, so you never miss an important moment in chat.</p><a href="#how-it-works">Learn more <span>→</span></a></article>
+          <article class="feature-card"><div class="feature-icon orange">☼</div><h3>Keep chat moving</h3><p>Get smart prompts, polls, and conversation starters that feel natural—not robotic.</p><a href="#how-it-works">Learn more <span>→</span></a></article>
+          <article class="feature-card"><div class="feature-icon green">↗</div><h3>Grow your way</h3><p>Turn every stream into an opportunity with insights that help you understand your community.</p><a href="#how-it-works">Learn more <span>→</span></a></article>
+        </div>
+      </section>
+
+      <section class="workflow section" id="how-it-works">
+        <div class="workflow-content"><p class="eyebrow">Your stream, upgraded</p><h2>Good streams are live.<br /><em>Great streams feel alive.</em></h2><p>Dexter works alongside you—not instead of you. Connect your channel, tell Dexter how you stream, and let the magic happen.</p><button class="button button-primary" data-action="signup">Bring Dexter to your stream <span>→</span></button></div>
+        <div class="steps"><div class="step"><b>01</b><div><h3>Connect</h3><p>Link your channel in a few clicks.</p></div></div><div class="step"><b>02</b><div><h3>Customize</h3><p>Make Dexter sound like you.</p></div></div><div class="step"><b>03</b><div><h3>Go live</h3><p>Stream with confidence.</p></div></div></div>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#"><span class="brand-mark">✦</span><span>dexter<span class="brand-accent">.</span></span></a><p>© 2024 Dexter Copilot. Made for the next generation of creators.</p><div><a href="#">Privacy</a><a href="#">Terms</a></div></footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
